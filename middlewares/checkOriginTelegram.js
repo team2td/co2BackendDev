@@ -8,6 +8,7 @@ const allowedRealOrigins = [
   'https://co2-frontend-five.vercel.app',
   'https://gogreenappco2.netlify.app',
   'https://0df5-5-90-138-45.ngrok-free.app',
+  'https://co2bot.netlify.app/',
 ];
 
 // const secretKey = process.env.SECRET_KEY; // Chiave segreta salvata nelle variabili di ambiente
