@@ -20,9 +20,9 @@ async function dbConnect() {
 }
 
 dbConnect();
-
+console.log('DB:', DB);
 const port = process.env.PORT || 3005;
-
+console.log('PORT:', port);
 const server = http.createServer(app);
 
 server.listen(port, () => {
